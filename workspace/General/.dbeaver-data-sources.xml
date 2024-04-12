@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="oracle_thin-18dfbb771f6-711efbaea0ff62a5" provider="oracle" driver="oracle_thin" name="Oracle - DBM01PRD.PRDOLTP" save-password="true" read-only="false">
+		<connection host="cbdprd-cluster.intra.tjmg.gov.br" port="1521" server="" database="DBM01PRD.PRDOLTP" url="jdbc:oracle:thin:@//cbdprd-cluster.intra.tjmg.gov.br:1521/DBM01PRD.PRDOLTP" user="obrasgov" password="GFQRD1JIHUUXPTw/d/c=" home="C:\Ora11g\product\11.2.0\client_2" type="dev">
+			<provider-property name="@dbeaver-always-use-dba-views@" value="false"/>
+			<provider-property name="@dbeaver-sid-service@" value="SERVICE"/>
+			<provider-property name="@dbeaver-use-rule-hint@" value="false"/>
+			<provider-property name="@dbeaver-connection-type@" value="BASIC"/>
+			<provider-property name="@dbeaver-check-schema-content@" value="false"/>
+			<provider-property name="@dbeaver-always-show-dba@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="oracle_thin-18ed24c797e-35e65c5c24d31270" provider="oracle" driver="oracle_thin" name="Oracle - DBM01HML.HMLOLTP" save-password="true" read-only="false">
+		<connection host="cbdhml-cluster.intra.tjmg.gov.br" port="1521" server="" database="DBM01HML.HMLOLTP" url="jdbc:oracle:thin:@//cbdhml-cluster.intra.tjmg.gov.br:1521/DBM01HML.HMLOLTP" user="OBRASGOV" password="GFQRD1JIHUUXPTw/d/c=" home="C:\Ora11g\product\11.2.0\client_2" type="dev">
+			<provider-property name="@dbeaver-always-use-dba-views@" value="false"/>
+			<provider-property name="@dbeaver-sid-service@" value="SERVICE"/>
+			<provider-property name="@dbeaver-use-rule-hint@" value="false"/>
+			<provider-property name="@dbeaver-connection-type@" value="BASIC"/>
+			<provider-property name="@dbeaver-check-schema-content@" value="false"/>
+			<provider-property name="@dbeaver-always-show-dba@" value="false"/>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>

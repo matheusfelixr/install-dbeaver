@@ -1,0 +1,29 @@
+!SESSION 2024-04-12 09:43:21.209 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_291
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 4 0 2024-04-12 09:43:22.148
+!MESSAGE Application error
+!STACK 1
+java.lang.UnsatisfiedLinkError: Cannot load 32-bit SWT libraries on 64-bit JVM
+	at org.eclipse.swt.internal.Library.loadLibrary(Library.java:265)
+	at org.eclipse.swt.internal.Library.loadLibrary(Library.java:242)
+	at org.eclipse.swt.internal.C.<clinit>(C.java:19)
+	at org.eclipse.swt.widgets.Display.<clinit>(Display.java:142)
+	at org.jkiss.dbeaver.core.application.DBeaverApplication.start(DBeaverApplication.java:114)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)

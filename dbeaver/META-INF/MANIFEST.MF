@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_141 (Oracle Corporation)
+
+Name: eclipsec.exe
+SHA-256-Digest: d0Wgccc+IBf1P+eCUCCr/b7R5S5DC60QhEnARsBGLeo=
+
+Name: dbeaver.exe
+SHA-256-Digest: +4lqelw+Lq1M/iGsP5BdTKFaGrwuRzmfeqgo8xsw84k=
+

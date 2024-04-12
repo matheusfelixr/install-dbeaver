@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="DBeaver.StandardErrorDialog">
+		<item value="368" key="DIALOG_WIDTH"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+		<item value="165" key="DIALOG_HEIGHT"/>
+		<item value="false" key="showDetails"/>
+		<item value="782" key="DIALOG_X_ORIGIN"/>
+		<item value="295" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.DriverEditDialog">
+		<item value="508" key="DIALOG_WIDTH"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+		<item value="567" key="DIALOG_HEIGHT"/>
+		<item value="47" key="DIALOG_X_ORIGIN"/>
+		<item value="-136" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.NewConnectionWizard">
+		<item value="535" key="DIALOG_WIDTH"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+		<item value="575" key="DIALOG_HEIGHT"/>
+		<item value="699" key="DIALOG_X_ORIGIN"/>
+		<item value="65" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.EditConnectionDialog">
+		<item value="602" key="DIALOG_WIDTH"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+		<item value="484" key="DIALOG_HEIGHT"/>
+		<item value="665" key="DIALOG_X_ORIGIN"/>
+		<item value="83" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.QM.LogViewer">
+	</section>
+	<section name="DBeaver.ShowTipOfTheDayDialog">
+		<item value="340" key="DIALOG_WIDTH"/>
+		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+		<item value="229" key="DIALOG_HEIGHT"/>
+		<item value="796" key="DIALOG_X_ORIGIN"/>
+		<item value="253" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.DriverTabbedViewer">
+	</section>
+	<section name="ResultSetViewer">
+		<section name="presentations">
+		</section>
+	</section>
+</section>

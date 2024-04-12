@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Built-By: jkiss.org
+Build-Time: 201903101545
+Created-By: jkiss.org
+Build-Jdk: 1.8.0_141
+
+Name: feature.xml
+SHA-256-Digest: oTvCyqHJd3NaUX094NCcPllgHAI2FxodW5cfXXVGzGY=
+
+Name: feature.properties
+SHA-256-Digest: Ko8a15ei/hsh9pn6Kc+8QzaZTaaGbmJbG5nr79eHxX4=
+
