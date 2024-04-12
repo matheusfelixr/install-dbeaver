@@ -1988,3 +1988,86 @@ WHERE (U.USERNAME IN (SELECT DISTINCT OWNER FROM SYS.ALL_OBJECTS)), Error Messag
 	at org.jkiss.dbeaver.ui.perspective.DataSourceManagementToolbar$DatabaseListReader.run(DataSourceManagementToolbar.java:144)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:102)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-04-12 10:15:18.340 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\install-dbeaver\workspace
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2024-04-12 10:15:53.244
+!MESSAGE SQL Error [1013] [72000]: ORA-01013: o usuário solicitou o cancelamento da operação atual
+
+https://docs.oracle.com/error-help/db/ora-01013/
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2024-04-12 10:15:53.244
+!MESSAGE ORA-01013: o usuário solicitou o cancelamento da operação atual
+
+https://docs.oracle.com/error-help/db/ora-01013/
+!STACK 0
+java.sql.SQLTimeoutException: ORA-01013: o usuário solicitou o cancelamento da operação atual
+
+https://docs.oracle.com/error-help/db/ora-01013/
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1277)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1102)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:456)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:482)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:259)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1088)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1277)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1207)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1543)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1415)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3731)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3945)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1011)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.execute(JDBCPreparedStatementImpl.java:260)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.executeStatement(JDBCPreparedStatementImpl.java:204)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.getAllObjects(JDBCObjectCache.java:70)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.getSchemas(OracleDataSource.java:296)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.getChildren(OracleDataSource.java:445)
+	at org.jkiss.dbeaver.ui.perspective.DataSourceManagementToolbar$DatabaseListReader.run(DataSourceManagementToolbar.java:144)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: Error : 1013, Position : 20, SQL = SELECT U.* FROM SYS.ALL_USERS U
+WHERE (U.USERNAME IN (SELECT DISTINCT OWNER FROM SYS.ALL_OBJECTS)), Original SQL = SELECT U.* FROM SYS.ALL_USERS U
+WHERE (U.USERNAME IN (SELECT DISTINCT OWNER FROM SYS.ALL_OBJECTS)), Error Message = ORA-01013: o usuário solicitou o cancelamento da operação atual
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	... 23 more
+!SUBENTRY 2 org.jkiss.dbeaver.model 4 0 2024-04-12 10:15:53.245
+!MESSAGE Error : 1013, Position : 20, SQL = SELECT U.* FROM SYS.ALL_USERS U
+WHERE (U.USERNAME IN (SELECT DISTINCT OWNER FROM SYS.ALL_OBJECTS)), Original SQL = SELECT U.* FROM SYS.ALL_USERS U
+WHERE (U.USERNAME IN (SELECT DISTINCT OWNER FROM SYS.ALL_OBJECTS)), Error Message = ORA-01013: o usuário solicitou o cancelamento da operação atual
+
+!STACK 0
+Error : 1013, Position : 20, SQL = SELECT U.* FROM SYS.ALL_USERS U
+WHERE (U.USERNAME IN (SELECT DISTINCT OWNER FROM SYS.ALL_OBJECTS)), Original SQL = SELECT U.* FROM SYS.ALL_USERS U
+WHERE (U.USERNAME IN (SELECT DISTINCT OWNER FROM SYS.ALL_OBJECTS)), Error Message = ORA-01013: o usuário solicitou o cancelamento da operação atual
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1277)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1102)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:456)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:482)
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:259)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1088)
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1277)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1207)
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1543)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1415)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3731)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3945)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1011)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.execute(JDBCPreparedStatementImpl.java:260)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCPreparedStatementImpl.executeStatement(JDBCPreparedStatementImpl.java:204)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.loadObjects(JDBCObjectCache.java:103)
+	at org.jkiss.dbeaver.model.impl.jdbc.cache.JDBCObjectCache.getAllObjects(JDBCObjectCache.java:70)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.getSchemas(OracleDataSource.java:296)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.getChildren(OracleDataSource.java:445)
+	at org.jkiss.dbeaver.ui.perspective.DataSourceManagementToolbar$DatabaseListReader.run(DataSourceManagementToolbar.java:144)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

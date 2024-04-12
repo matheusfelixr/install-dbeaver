@@ -334,7 +334,7 @@
     <trimBars xmi:id="_bTDVTeIoEe6q7NewCCknhw" elementId="org.eclipse.ui.main.toolbar">
       <children xsi:type="menu:ToolBar" xmi:id="_bTDVTuIoEe6q7NewCCknhw" elementId="dbeaver-general">
         <tags>Draggable</tags>
-        <children xsi:type="menu:ToolBarSeparator" xmi:id="_kgXXkPjLEe6gxdJB9fu54w" elementId="sql-tools"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_uM3xwPjOEe6d3dkazEOJtA" elementId="sql-tools"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_bTDVYOIoEe6q7NewCCknhw" elementId="dbeaver-transactions">
         <tags>Draggable</tags>

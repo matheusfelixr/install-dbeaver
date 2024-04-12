@@ -1,71 +1,71 @@
-2024-04-12 09:52:46.690 - DBeaver 6.0.0.201903101945 is starting
-2024-04-12 09:52:46.694 - OS: Windows 7 6.1 (x86)
-2024-04-12 09:52:46.698 - Java version: 1.8.0_231 by Oracle Corporation (32bit)
-2024-04-12 09:52:46.704 - Install path: 'C:\install-dbeaver\dbeaver'
-2024-04-12 09:52:46.711 - Instance path: 'file:/C:/install-dbeaver/workspace/'
-2024-04-12 09:52:46.716 - Memory available 61Mb/989Mb
-2024-04-12 09:52:46.749 - Starting RMI server at 41366
-2024-04-12 09:52:46.843 - Run workbench
-2024-04-12 09:52:46.863 - > Start org.eclipse.e4.ui.workbench.swt [0.14.300.v20180906-1121]
-2024-04-12 09:52:46.870 - > Start org.eclipse.e4.core.services [2.1.200.v20180817-1215]
-2024-04-12 09:52:46.873 - > Start org.eclipse.e4.core.contexts [1.7.100.v20180817-1215]
-2024-04-12 09:52:46.884 - > Start org.eclipse.e4.ui.services [1.3.200.v20180906-1121]
-2024-04-12 09:52:46.955 - > Start org.eclipse.e4.ui.di [1.2.300.v20180906-1121]
-2024-04-12 09:52:47.058 - > Start org.eclipse.emf.common [2.15.0.v20180723-1316]
-2024-04-12 09:52:47.096 - > Start org.eclipse.emf.ecore [2.15.0.v20180722-1159]
-2024-04-12 09:52:47.210 - > Start org.eclipse.emf.ecore.xmi [2.15.0.v20180706-1146]
-2024-04-12 09:52:47.475 - > Start org.eclipse.core.filesystem [1.7.200.v20180828-0158]
-2024-04-12 09:52:47.542 - > Start org.eclipse.core.resources [3.13.100.v20180828-0158]
-2024-04-12 09:52:47.773 - > Start org.eclipse.e4.ui.workbench.addons.swt [1.3.200.v20180828-0227]
-2024-04-12 09:52:47.784 - > Start org.eclipse.core.expressions [3.6.200.v20180817-1401]
-2024-04-12 09:52:47.807 - > Start org.eclipse.e4.ui.workbench.renderers.swt [0.14.300.v20180828-0227]
-2024-04-12 09:52:47.974 - > Start org.eclipse.e4.ui.bindings [0.12.200.v20180828-0227]
-2024-04-12 09:52:48.056 - > Start org.eclipse.e4.core.di.extensions [0.15.200.v20180817-1215]
-2024-04-12 09:52:48.532 - > Start org.eclipse.e4.ui.css.swt [0.13.200.v20180828-0227]
-2024-04-12 09:52:48.686 - > Start org.eclipse.e4.ui.css.swt.theme [0.12.100.v20180828-0227]
-2024-04-12 09:52:49.302 - Initializing DBeaver 6.0.0
-2024-04-12 09:52:49.307 - Host plugin: org.jkiss.dbeaver.core.application 6.0.0.201903101945
-2024-04-12 09:52:49.315 - Initialize Core...
-2024-04-12 09:52:49.324 - Can't find BC security provider. Use default JCE.
-2024-04-12 09:52:49.329 - BouncyCastle not registered, using the default JCE provider
-2024-04-12 09:52:49.338 - Language for locale 'pt_BR' not found. Use default.
-2024-04-12 09:52:49.479 - > Start org.eclipse.team.core [3.8.300.v20180827-1041]
-2024-04-12 09:52:49.506 - > Start org.jkiss.dbeaver.ui.navigator [1.0.4.201903101945]
-2024-04-12 09:52:49.678 - Total database drivers: 71 (71)
-2024-04-12 09:52:49.714 - > Start org.eclipse.equinox.security [1.2.500.v20180827-1235]
-2024-04-12 09:52:49.732 - > Start org.eclipse.ui.net [1.3.300.v20180827-1041]
-2024-04-12 09:52:49.738 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
-2024-04-12 09:52:49.747 - > Start org.eclipse.core.net [1.3.300.v20180827-1041]
-2024-04-12 09:52:49.752 - Core initialized (437ms)
-2024-04-12 09:52:49.755 - Configure workbench window
-2024-04-12 09:52:49.778 - > Start org.eclipse.help [3.8.200.v20180821-0700]
-2024-04-12 09:52:50.534 - Create actions
-2024-04-12 09:52:50.539 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2024-04-12 09:52:50.546 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2024-04-12 09:52:50.618 - > Start org.eclipse.ui.editors [3.11.200.v20180822-1511]
-2024-04-12 09:52:50.623 - > Start org.eclipse.core.filebuffers [3.6.300.v20180822-1339]
-2024-04-12 09:52:51.135 - > Start org.eclipse.search [3.11.300.v20180822-1339]
-2024-04-12 09:52:51.175 - > Start org.eclipse.ui.workbench.texteditor [3.11.100.v20180824-1030]
-2024-04-12 09:52:51.193 - Initialize workbench window
-2024-04-12 09:52:51.214 - Finish initialization
-2024-04-12 09:52:51.302 - > Start org.jkiss.dbeaver.ui.editors.sql [1.0.4.201903101945]
-2024-04-12 09:52:51.415 - > Start org.jkiss.dbeaver.ext.erd [2.0.106.201903101945]
-2024-04-12 09:52:51.558 - > Start org.jkiss.dbeaver.ui.editors.base [1.0.4.201903101945]
-2024-04-12 09:52:52.403 - > Start org.eclipse.compare.core [3.6.300.v20180827-1041]
-2024-04-12 09:52:52.486 - > Start org.jkiss.dbeaver.ui.editors.data [1.0.4.201903101945]
-2024-04-12 09:52:53.722 - > Start org.eclipse.equinox.p2.core [2.5.100.v20180822-1532]
-2024-04-12 09:52:53.725 - > Start org.eclipse.equinox.p2.operations [2.5.100.v20180822-1302]
-2024-04-12 09:52:53.729 - > Start org.eclipse.equinox.p2.engine [2.6.100.v20180822-1302]
-2024-04-12 09:52:53.732 - > Start org.eclipse.equinox.p2.metadata [2.4.100.v20180822-1302]
-2024-04-12 09:52:53.736 - > Start org.eclipse.equinox.p2.ui.sdk.scheduler [1.4.100.v20180827-1122]
-2024-04-12 09:52:53.743 - > Start org.eclipse.equinox.p2.updatechecker [1.2.100.v20180827-1122]
-2024-04-12 09:52:53.747 - > Start org.eclipse.equinox.p2.metadata.repository [1.3.100.v20180822-1302]
-2024-04-12 09:52:53.752 - > Start org.eclipse.equinox.p2.repository [2.4.100.v20180822-1354]
-2024-04-12 09:52:53.914 - > Start org.jkiss.dbeaver.ext.sample.database [1.0.41.201903101945]
-2024-04-12 09:52:53.918 - > Start org.jkiss.dbeaver.ext.ui.tipoftheday [1.0.10.201903101945]
-2024-04-12 09:52:54.146 - > Start org.eclipse.equinox.p2.ui [2.5.200.v20180822-1357]
-2024-04-12 09:52:54.183 - Connect with 'Oracle - DBM01PRD.PRDOLTP' (oracle_thin-18dfbb771f6-711efbaea0ff62a5)
-2024-04-12 09:52:54.191 - > Start org.jkiss.dbeaver.ext.oracle [2.1.89.201903101945]
-2024-04-12 09:52:56.200 - Connected (oracle_thin-18dfbb771f6-711efbaea0ff62a5, Oracle JDBC driver [23.3.0.23.09])
-2024-04-12 09:54:30.184 - DBeaver is stopping
-2024-04-12 09:54:30.187 - Stop RMI server
+2024-04-12 10:15:20.214 - DBeaver 6.0.0.201903101945 is starting
+2024-04-12 10:15:20.218 - OS: Windows 7 6.1 (x86)
+2024-04-12 10:15:20.221 - Java version: 1.8.0_231 by Oracle Corporation (32bit)
+2024-04-12 10:15:20.227 - Install path: 'C:\install-dbeaver\dbeaver'
+2024-04-12 10:15:20.231 - Instance path: 'file:/C:/install-dbeaver/workspace/'
+2024-04-12 10:15:20.235 - Memory available 61Mb/989Mb
+2024-04-12 10:15:20.262 - Starting RMI server at 52645
+2024-04-12 10:15:20.359 - Run workbench
+2024-04-12 10:15:20.381 - > Start org.eclipse.e4.ui.workbench.swt [0.14.300.v20180906-1121]
+2024-04-12 10:15:20.387 - > Start org.eclipse.e4.core.services [2.1.200.v20180817-1215]
+2024-04-12 10:15:20.393 - > Start org.eclipse.e4.core.contexts [1.7.100.v20180817-1215]
+2024-04-12 10:15:20.397 - > Start org.eclipse.e4.ui.services [1.3.200.v20180906-1121]
+2024-04-12 10:15:20.465 - > Start org.eclipse.e4.ui.di [1.2.300.v20180906-1121]
+2024-04-12 10:15:20.557 - > Start org.eclipse.emf.common [2.15.0.v20180723-1316]
+2024-04-12 10:15:20.593 - > Start org.eclipse.emf.ecore [2.15.0.v20180722-1159]
+2024-04-12 10:15:20.711 - > Start org.eclipse.emf.ecore.xmi [2.15.0.v20180706-1146]
+2024-04-12 10:15:21.002 - > Start org.eclipse.core.filesystem [1.7.200.v20180828-0158]
+2024-04-12 10:15:21.068 - > Start org.eclipse.core.resources [3.13.100.v20180828-0158]
+2024-04-12 10:15:21.312 - > Start org.eclipse.e4.ui.workbench.addons.swt [1.3.200.v20180828-0227]
+2024-04-12 10:15:21.338 - > Start org.eclipse.core.expressions [3.6.200.v20180817-1401]
+2024-04-12 10:15:21.356 - > Start org.eclipse.e4.ui.workbench.renderers.swt [0.14.300.v20180828-0227]
+2024-04-12 10:15:21.535 - > Start org.eclipse.e4.ui.bindings [0.12.200.v20180828-0227]
+2024-04-12 10:15:21.619 - > Start org.eclipse.e4.core.di.extensions [0.15.200.v20180817-1215]
+2024-04-12 10:15:22.158 - > Start org.eclipse.e4.ui.css.swt [0.13.200.v20180828-0227]
+2024-04-12 10:15:22.310 - > Start org.eclipse.e4.ui.css.swt.theme [0.12.100.v20180828-0227]
+2024-04-12 10:15:22.916 - Initializing DBeaver 6.0.0
+2024-04-12 10:15:22.920 - Host plugin: org.jkiss.dbeaver.core.application 6.0.0.201903101945
+2024-04-12 10:15:22.927 - Initialize Core...
+2024-04-12 10:15:22.935 - Can't find BC security provider. Use default JCE.
+2024-04-12 10:15:22.939 - BouncyCastle not registered, using the default JCE provider
+2024-04-12 10:15:22.948 - Language for locale 'pt_BR' not found. Use default.
+2024-04-12 10:15:23.085 - > Start org.eclipse.team.core [3.8.300.v20180827-1041]
+2024-04-12 10:15:23.112 - > Start org.jkiss.dbeaver.ui.navigator [1.0.4.201903101945]
+2024-04-12 10:15:23.278 - Total database drivers: 71 (71)
+2024-04-12 10:15:23.313 - > Start org.eclipse.equinox.security [1.2.500.v20180827-1235]
+2024-04-12 10:15:23.334 - > Start org.eclipse.ui.net [1.3.300.v20180827-1041]
+2024-04-12 10:15:23.337 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2024-04-12 10:15:23.344 - > Start org.eclipse.core.net [1.3.300.v20180827-1041]
+2024-04-12 10:15:23.348 - Core initialized (421ms)
+2024-04-12 10:15:23.351 - Configure workbench window
+2024-04-12 10:15:23.368 - > Start org.eclipse.help [3.8.200.v20180821-0700]
+2024-04-12 10:15:24.087 - Create actions
+2024-04-12 10:15:24.092 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2024-04-12 10:15:24.098 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2024-04-12 10:15:24.169 - > Start org.eclipse.ui.editors [3.11.200.v20180822-1511]
+2024-04-12 10:15:24.173 - > Start org.eclipse.core.filebuffers [3.6.300.v20180822-1339]
+2024-04-12 10:15:24.688 - > Start org.eclipse.search [3.11.300.v20180822-1339]
+2024-04-12 10:15:24.722 - > Start org.eclipse.ui.workbench.texteditor [3.11.100.v20180824-1030]
+2024-04-12 10:15:24.739 - Initialize workbench window
+2024-04-12 10:15:24.759 - Finish initialization
+2024-04-12 10:15:24.836 - > Start org.jkiss.dbeaver.ui.editors.sql [1.0.4.201903101945]
+2024-04-12 10:15:24.941 - > Start org.jkiss.dbeaver.ext.erd [2.0.106.201903101945]
+2024-04-12 10:15:25.079 - > Start org.jkiss.dbeaver.ui.editors.base [1.0.4.201903101945]
+2024-04-12 10:15:25.913 - > Start org.eclipse.compare.core [3.6.300.v20180827-1041]
+2024-04-12 10:15:26.006 - > Start org.jkiss.dbeaver.ui.editors.data [1.0.4.201903101945]
+2024-04-12 10:15:27.146 - > Start org.eclipse.equinox.p2.core [2.5.100.v20180822-1532]
+2024-04-12 10:15:27.150 - > Start org.eclipse.equinox.p2.operations [2.5.100.v20180822-1302]
+2024-04-12 10:15:27.236 - > Start org.eclipse.equinox.p2.engine [2.6.100.v20180822-1302]
+2024-04-12 10:15:27.239 - > Start org.eclipse.equinox.p2.metadata [2.4.100.v20180822-1302]
+2024-04-12 10:15:27.243 - > Start org.eclipse.equinox.p2.ui.sdk.scheduler [1.4.100.v20180827-1122]
+2024-04-12 10:15:27.250 - > Start org.eclipse.equinox.p2.updatechecker [1.2.100.v20180827-1122]
+2024-04-12 10:15:27.253 - > Start org.eclipse.equinox.p2.metadata.repository [1.3.100.v20180822-1302]
+2024-04-12 10:15:27.257 - > Start org.eclipse.equinox.p2.repository [2.4.100.v20180822-1354]
+2024-04-12 10:15:27.436 - > Start org.jkiss.dbeaver.ext.sample.database [1.0.41.201903101945]
+2024-04-12 10:15:27.470 - > Start org.jkiss.dbeaver.ext.ui.tipoftheday [1.0.10.201903101945]
+2024-04-12 10:15:27.646 - > Start org.eclipse.equinox.p2.ui [2.5.200.v20180822-1357]
+2024-04-12 10:15:27.729 - Connect with 'Oracle - DBM01PRD.PRDOLTP' (oracle_thin-18dfbb771f6-711efbaea0ff62a5)
+2024-04-12 10:15:27.755 - > Start org.jkiss.dbeaver.ext.oracle [2.1.89.201903101945]
+2024-04-12 10:15:29.856 - Connected (oracle_thin-18dfbb771f6-711efbaea0ff62a5, Oracle JDBC driver [23.3.0.23.09])
+2024-04-12 10:15:53.165 - DBeaver is stopping
+2024-04-12 10:15:53.167 - Stop RMI server
